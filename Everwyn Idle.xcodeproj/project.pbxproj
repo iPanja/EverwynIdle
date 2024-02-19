@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A507586C2AE1DF1700D35520 /* PlayerSkillProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A507586B2AE1DF1700D35520 /* PlayerSkillProgressView.swift */; };
+		A50758702AE1E71A00D35520 /* SkillLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A507586F2AE1E71A00D35520 /* SkillLocationView.swift */; };
+		A50758722AE1E75000D35520 /* SkillLocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50758712AE1E75000D35520 /* SkillLocationRow.swift */; };
+		A50758742AE2041000D35520 /* Manager+SkillLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50758732AE2041000D35520 /* Manager+SkillLocation.swift */; };
+		A50758762AE2A33E00D35520 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50758752AE2A33E00D35520 /* InventoryView.swift */; };
+		A50927952B0AB8800014F19B /* LocationIdlerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50927942B0AB8800014F19B /* LocationIdlerMain.swift */; };
+		A50927972B0AB9570014F19B /* IdlerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50927962B0AB9570014F19B /* IdlerMode.swift */; };
+		A509A45B2B1927350000912D /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509A45A2B1927350000912D /* Direction.swift */; };
+		A509A45D2B1933140000912D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509A45C2B1933140000912D /* MapView.swift */; };
+		A509A45F2B1933A20000912D /* RoomTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509A45E2B1933A20000912D /* RoomTileView.swift */; };
+		A509A4612B1953570000912D /* ConnectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509A4602B1953570000912D /* ConnectorView.swift */; };
+		A509A4632B195DA40000912D /* ValueProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509A4622B195DA40000912D /* ValueProgressBar.swift */; };
+		A50BEAC32B182FB000A45F52 /* Equipment+Dungeon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BEAC22B182FB000A45F52 /* Equipment+Dungeon.swift */; };
+		A51A82012B1439EA00A16151 /* DungeonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A82002B1439EA00A16151 /* DungeonView.swift */; };
+		A51A82032B143A2A00A16151 /* Dungeon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A82022B143A2A00A16151 /* Dungeon.swift */; };
+		A51A82052B14424F00A16151 /* Manager+Dungeon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A82042B14424F00A16151 /* Manager+Dungeon.swift */; };
+		A51A82072B14445600A16151 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A82062B14445600A16151 /* TileView.swift */; };
+		A52FADFD2B156CC2001049FD /* NavigationMoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FADFC2B156CC2001049FD /* NavigationMoveButton.swift */; };
+		A530EA2E2AF2EF9400655ECA /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530EA2D2AF2EF9400655ECA /* Equipment.swift */; };
+		A530EA302AF31CF400655ECA /* Manager+Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530EA2F2AF31CF400655ECA /* Manager+Inventory.swift */; };
+		A530EA322AF320D800655ECA /* EquipmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530EA312AF320D800655ECA /* EquipmentPicker.swift */; };
+		A530EA342AF3471F00655ECA /* SkillCheckGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530EA332AF3471F00655ECA /* SkillCheckGame.swift */; };
+		A53127492ADF635B001E206B /* Everwyn_IdleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127482ADF635B001E206B /* Everwyn_IdleApp.swift */; };
+		A531274B2ADF635B001E206B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A531274A2ADF635B001E206B /* ContentView.swift */; };
+		A531274D2ADF635D001E206B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A531274C2ADF635D001E206B /* Assets.xcassets */; };
+		A53127502ADF635D001E206B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A531274F2ADF635D001E206B /* Preview Assets.xcassets */; };
+		A531275A2ADF635E001E206B /* Everwyn_IdleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127592ADF635E001E206B /* Everwyn_IdleTests.swift */; };
+		A53127642ADF635E001E206B /* Everwyn_IdleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127632ADF635E001E206B /* Everwyn_IdleUITests.swift */; };
+		A53127662ADF635E001E206B /* Everwyn_IdleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127652ADF635E001E206B /* Everwyn_IdleUITestsLaunchTests.swift */; };
+		A53127762ADF668B001E206B /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127752ADF668B001E206B /* Skill.swift */; };
+		A53127782ADF6919001E206B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127772ADF6919001E206B /* Item.swift */; };
+		A531277A2ADF69F4001E206B /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127792ADF69F4001E206B /* Inventory.swift */; };
+		A531277D2ADF6B80001E206B /* Item+Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A531277C2ADF6B80001E206B /* Item+Resources.swift */; };
+		A531277F2ADF6E4B001E206B /* Item+Runes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A531277E2ADF6E4B001E206B /* Item+Runes.swift */; };
+		A53127812ADF6E6D001E206B /* Item+Combat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127802ADF6E6D001E206B /* Item+Combat.swift */; };
+		A53127842AE000C0001E206B /* SkillLocations+Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127832AE000C0001E206B /* SkillLocations+Resources.swift */; };
+		A53127862AE00769001E206B /* Skill+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127852AE00769001E206B /* Skill+Data.swift */; };
+		A53127892AE00A9C001E206B /* SkillLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127882AE00A9C001E206B /* SkillLocation.swift */; };
+		A531278B2AE06AAD001E206B /* SkillCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A531278A2AE06AAD001E206B /* SkillCheck.swift */; };
+		A531278D2AE06AD5001E206B /* SkillCheckCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A531278C2AE06AD5001E206B /* SkillCheckCircle.swift */; };
+		A53127932AE07407001E206B /* SkillCheckIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127922AE07407001E206B /* SkillCheckIndicator.swift */; };
+		A53127952AE07BE4001E206B /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127942AE07BE4001E206B /* View.swift */; };
+		A53127982AE0BD71001E206B /* PlayerSkillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127972AE0BD71001E206B /* PlayerSkillRow.swift */; };
+		A531279A2AE0C035001E206B /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53127992AE0C034001E206B /* Manager.swift */; };
+		A5409F512B200CF800C9F736 /* HTTPServerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5409F502B200CF800C9F736 /* HTTPServerInterface.swift */; };
+		A5409F542B200F3100C9F736 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5409F532B200F3100C9F736 /* ServerResponse.swift */; };
+		A5409F562B2015F300C9F736 /* Manager+Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5409F552B2015F300C9F736 /* Manager+Server.swift */; };
+		A55AA35E2AF5612400D8BC69 /* TransactionWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AA35D2AF5612400D8BC69 /* TransactionWindow.swift */; };
+		A55AA3602AF5614500D8BC69 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AA35F2AF5614500D8BC69 /* Transaction.swift */; };
+		A55AA3622AF5742900D8BC69 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AA3612AF5742900D8BC69 /* String.swift */; };
+		A55AA3642AF574B700D8BC69 /* TransactionQuantityPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AA3632AF574B700D8BC69 /* TransactionQuantityPicker.swift */; };
+		A55AA3672AF5E1B500D8BC69 /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AA3662AF5E1B500D8BC69 /* Merchant.swift */; };
+		A55B109C2B0037FB00C9716A /* QuickNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B109B2B0037FB00C9716A /* QuickNotification.swift */; };
+		A56248902B2224C900753512 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = A562488F2B2224C900753512 /* SocketIO */; };
+		A56248932B225B4A00753512 /* MultiplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56248922B225B4A00753512 /* MultiplayerView.swift */; };
+		A56248962B22736200753512 /* SocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56248952B22736200753512 /* SocketServer.swift */; };
+		A57645882B23D33B003C26A7 /* PlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57645872B23D33B003C26A7 /* PlayerAction.swift */; };
+		A576458A2B23D34D003C26A7 /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57645892B23D34D003C26A7 /* ActionType.swift */; };
+		A58101AA2B0EAF89005A4B92 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58101A92B0EAF89005A4B92 /* Room.swift */; };
+		A58101AC2B0EAF9E005A4B92 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58101AB2B0EAF9E005A4B92 /* Tile.swift */; };
+		A58101AE2B0EB126005A4B92 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58101AD2B0EB126005A4B92 /* Enemy.swift */; };
+		A58FE9782B1AD9600033BDB9 /* Item+Consumables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FE9772B1AD9600033BDB9 /* Item+Consumables.swift */; };
+		A5B433712AE2A89F00C54E59 /* ListFootnote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B433702AE2A89F00C54E59 /* ListFootnote.swift */; };
+		A5B433732AE2C14A00C54E59 /* InventoryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B433722AE2C14A00C54E59 /* InventoryContent.swift */; };
+		A5B433752AE3766000C54E59 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B433742AE3766000C54E59 /* ShopView.swift */; };
+		A5EF59282B24EC5D00110747 /* MultiplayerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EF59272B24EC5D00110747 /* MultiplayerSettings.swift */; };
+		A5EF592A2B258EDF00110747 /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EF59292B258EDF00110747 /* ItemType.swift */; };
+		A5EF592C2B258EF800110747 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EF592B2B258EF800110747 /* ItemData.swift */; };
+		A5F4B37B2AE173CD00B36CA1 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4B37A2AE173CD00B36CA1 /* SkillView.swift */; };
+		A5F4B37F2AE1CC1900B36CA1 /* PlayerSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4B37E2AE1CC1900B36CA1 /* PlayerSkill.swift */; };
+		A5F4B3812AE1CD6000B36CA1 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4B3802AE1CD6000B36CA1 /* Persistance.swift */; };
+		A5F4B3832AE1D70100B36CA1 /* Manager+Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4B3822AE1D70100B36CA1 /* Manager+Skill.swift */; };
+		A5F66CEA2B2051CE00DB4400 /* ModGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F66CE92B2051CE00DB4400 /* ModGameView.swift */; };
+		A5F66CEC2B2051E500DB4400 /* ModGameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F66CEB2B2051E500DB4400 /* ModGameRow.swift */; };
+		A5F66CEE2B21351F00DB4400 /* DropTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F66CED2B21351F00DB4400 /* DropTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53127562ADF635E001E206B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A531273D2ADF635B001E206B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53127442ADF635B001E206B;
+			remoteInfo = "Everwyn Idle";
+		};
+		A53127602ADF635E001E206B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A531273D2ADF635B001E206B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53127442ADF635B001E206B;
+			remoteInfo = "Everwyn Idle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A507586B2AE1DF1700D35520 /* PlayerSkillProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSkillProgressView.swift; sourceTree = "<group>"; };
+		A507586F2AE1E71A00D35520 /* SkillLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLocationView.swift; sourceTree = "<group>"; };
+		A50758712AE1E75000D35520 /* SkillLocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLocationRow.swift; sourceTree = "<group>"; };
+		A50758732AE2041000D35520 /* Manager+SkillLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+SkillLocation.swift"; sourceTree = "<group>"; };
+		A50758752AE2A33E00D35520 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		A50927942B0AB8800014F19B /* LocationIdlerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationIdlerMain.swift; sourceTree = "<group>"; };
+		A50927962B0AB9570014F19B /* IdlerMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdlerMode.swift; sourceTree = "<group>"; };
+		A509A45A2B1927350000912D /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		A509A45C2B1933140000912D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A509A45E2B1933A20000912D /* RoomTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTileView.swift; sourceTree = "<group>"; };
+		A509A4602B1953570000912D /* ConnectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorView.swift; sourceTree = "<group>"; };
+		A509A4622B195DA40000912D /* ValueProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueProgressBar.swift; sourceTree = "<group>"; };
+		A50BEAC22B182FB000A45F52 /* Equipment+Dungeon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Equipment+Dungeon.swift"; sourceTree = "<group>"; };
+		A51A82002B1439EA00A16151 /* DungeonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonView.swift; sourceTree = "<group>"; };
+		A51A82022B143A2A00A16151 /* Dungeon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dungeon.swift; sourceTree = "<group>"; };
+		A51A82042B14424F00A16151 /* Manager+Dungeon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+Dungeon.swift"; sourceTree = "<group>"; };
+		A51A82062B14445600A16151 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		A52FADFC2B156CC2001049FD /* NavigationMoveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMoveButton.swift; sourceTree = "<group>"; };
+		A530EA2D2AF2EF9400655ECA /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		A530EA2F2AF31CF400655ECA /* Manager+Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+Inventory.swift"; sourceTree = "<group>"; };
+		A530EA312AF320D800655ECA /* EquipmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentPicker.swift; sourceTree = "<group>"; };
+		A530EA332AF3471F00655ECA /* SkillCheckGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCheckGame.swift; sourceTree = "<group>"; };
+		A53127452ADF635B001E206B /* Everwyn Idle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Everwyn Idle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53127482ADF635B001E206B /* Everwyn_IdleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everwyn_IdleApp.swift; sourceTree = "<group>"; };
+		A531274A2ADF635B001E206B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A531274C2ADF635D001E206B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A531274F2ADF635D001E206B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A53127552ADF635E001E206B /* Everwyn IdleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everwyn IdleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53127592ADF635E001E206B /* Everwyn_IdleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everwyn_IdleTests.swift; sourceTree = "<group>"; };
+		A531275F2ADF635E001E206B /* Everwyn IdleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everwyn IdleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53127632ADF635E001E206B /* Everwyn_IdleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everwyn_IdleUITests.swift; sourceTree = "<group>"; };
+		A53127652ADF635E001E206B /* Everwyn_IdleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everwyn_IdleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A53127752ADF668B001E206B /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		A53127772ADF6919001E206B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A53127792ADF69F4001E206B /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		A531277C2ADF6B80001E206B /* Item+Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Resources.swift"; sourceTree = "<group>"; };
+		A531277E2ADF6E4B001E206B /* Item+Runes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Runes.swift"; sourceTree = "<group>"; };
+		A53127802ADF6E6D001E206B /* Item+Combat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Combat.swift"; sourceTree = "<group>"; };
+		A53127832AE000C0001E206B /* SkillLocations+Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SkillLocations+Resources.swift"; sourceTree = "<group>"; };
+		A53127852AE00769001E206B /* Skill+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Skill+Data.swift"; sourceTree = "<group>"; };
+		A53127882AE00A9C001E206B /* SkillLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLocation.swift; sourceTree = "<group>"; };
+		A531278A2AE06AAD001E206B /* SkillCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCheck.swift; sourceTree = "<group>"; };
+		A531278C2AE06AD5001E206B /* SkillCheckCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCheckCircle.swift; sourceTree = "<group>"; };
+		A53127922AE07407001E206B /* SkillCheckIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCheckIndicator.swift; sourceTree = "<group>"; };
+		A53127942AE07BE4001E206B /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		A53127972AE0BD71001E206B /* PlayerSkillRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSkillRow.swift; sourceTree = "<group>"; };
+		A53127992AE0C034001E206B /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		A5409F502B200CF800C9F736 /* HTTPServerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerInterface.swift; sourceTree = "<group>"; };
+		A5409F532B200F3100C9F736 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		A5409F552B2015F300C9F736 /* Manager+Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+Server.swift"; sourceTree = "<group>"; };
+		A55AA35D2AF5612400D8BC69 /* TransactionWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionWindow.swift; sourceTree = "<group>"; };
+		A55AA35F2AF5614500D8BC69 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		A55AA3612AF5742900D8BC69 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A55AA3632AF574B700D8BC69 /* TransactionQuantityPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionQuantityPicker.swift; sourceTree = "<group>"; };
+		A55AA3662AF5E1B500D8BC69 /* Merchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
+		A55B109B2B0037FB00C9716A /* QuickNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNotification.swift; sourceTree = "<group>"; };
+		A56248922B225B4A00753512 /* MultiplayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerView.swift; sourceTree = "<group>"; };
+		A56248952B22736200753512 /* SocketServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketServer.swift; sourceTree = "<group>"; };
+		A57645832B22C4B5003C26A7 /* Everwyn-Idle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Everwyn-Idle-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A57645872B23D33B003C26A7 /* PlayerAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAction.swift; sourceTree = "<group>"; };
+		A57645892B23D34D003C26A7 /* ActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
+		A58101A92B0EAF89005A4B92 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		A58101AB2B0EAF9E005A4B92 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		A58101AD2B0EB126005A4B92 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		A58FE9772B1AD9600033BDB9 /* Item+Consumables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Consumables.swift"; sourceTree = "<group>"; };
+		A5B433702AE2A89F00C54E59 /* ListFootnote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFootnote.swift; sourceTree = "<group>"; };
+		A5B433722AE2C14A00C54E59 /* InventoryContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryContent.swift; sourceTree = "<group>"; };
+		A5B433742AE3766000C54E59 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		A5EF59272B24EC5D00110747 /* MultiplayerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerSettings.swift; sourceTree = "<group>"; };
+		A5EF59292B258EDF00110747 /* ItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
+		A5EF592B2B258EF800110747 /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		A5F4B37A2AE173CD00B36CA1 /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		A5F4B37E2AE1CC1900B36CA1 /* PlayerSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSkill.swift; sourceTree = "<group>"; };
+		A5F4B3802AE1CD6000B36CA1 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		A5F4B3822AE1D70100B36CA1 /* Manager+Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+Skill.swift"; sourceTree = "<group>"; };
+		A5F66CE92B2051CE00DB4400 /* ModGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModGameView.swift; sourceTree = "<group>"; };
+		A5F66CEB2B2051E500DB4400 /* ModGameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModGameRow.swift; sourceTree = "<group>"; };
+		A5F66CED2B21351F00DB4400 /* DropTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53127422ADF635B001E206B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56248902B2224C900753512 /* SocketIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53127522ADF635E001E206B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A531275C2ADF635E001E206B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A507586A2AE1DEF200D35520 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A507586B2AE1DF1700D35520 /* PlayerSkillProgressView.swift */,
+				A5B433702AE2A89F00C54E59 /* ListFootnote.swift */,
+				A530EA312AF320D800655ECA /* EquipmentPicker.swift */,
+				A55B109B2B0037FB00C9716A /* QuickNotification.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A50927932B0AB5930014F19B /* Idler */ = {
+			isa = PBXGroup;
+			children = (
+				A5F66CE82B2051C600DB4400 /* ModGame */,
+				A53127912AE073F4001E206B /* SkillCheck */,
+				A50927942B0AB8800014F19B /* LocationIdlerMain.swift */,
+				A5F66CED2B21351F00DB4400 /* DropTableView.swift */,
+			);
+			path = Idler;
+			sourceTree = "<group>";
+		};
+		A531273C2ADF635B001E206B = {
+			isa = PBXGroup;
+			children = (
+				A53127472ADF635B001E206B /* Everwyn Idle */,
+				A53127582ADF635E001E206B /* Everwyn IdleTests */,
+				A53127622ADF635E001E206B /* Everwyn IdleUITests */,
+				A53127462ADF635B001E206B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53127462ADF635B001E206B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53127452ADF635B001E206B /* Everwyn Idle.app */,
+				A53127552ADF635E001E206B /* Everwyn IdleTests.xctest */,
+				A531275F2ADF635E001E206B /* Everwyn IdleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53127472ADF635B001E206B /* Everwyn Idle */ = {
+			isa = PBXGroup;
+			children = (
+				A57645832B22C4B5003C26A7 /* Everwyn-Idle-Info.plist */,
+				A531278E2AE0701E001E206B /* Extensions */,
+				A53127742ADF664E001E206B /* Views */,
+				A53127732ADF6648001E206B /* ViewModels */,
+				A53127722ADF6644001E206B /* Models */,
+				A53127482ADF635B001E206B /* Everwyn_IdleApp.swift */,
+				A531274A2ADF635B001E206B /* ContentView.swift */,
+				A531274C2ADF635D001E206B /* Assets.xcassets */,
+				A531274E2ADF635D001E206B /* Preview Content */,
+			);
+			path = "Everwyn Idle";
+			sourceTree = "<group>";
+		};
+		A531274E2ADF635D001E206B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A531274F2ADF635D001E206B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A53127582ADF635E001E206B /* Everwyn IdleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53127592ADF635E001E206B /* Everwyn_IdleTests.swift */,
+			);
+			path = "Everwyn IdleTests";
+			sourceTree = "<group>";
+		};
+		A53127622ADF635E001E206B /* Everwyn IdleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A53127632ADF635E001E206B /* Everwyn_IdleUITests.swift */,
+				A53127652ADF635E001E206B /* Everwyn_IdleUITestsLaunchTests.swift */,
+			);
+			path = "Everwyn IdleUITests";
+			sourceTree = "<group>";
+		};
+		A53127722ADF6644001E206B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A58101A82B0EAD82005A4B92 /* Dungeon */,
+				A55AA3652AF5E19B00D8BC69 /* Merchants */,
+				A53127872AE00A86001E206B /* Skills */,
+				A53127822ADF6EA3001E206B /* Items */,
+				A531277B2ADF6B6B001E206B /* Data */,
+				A53127792ADF69F4001E206B /* Inventory.swift */,
+				A530EA332AF3471F00655ECA /* SkillCheckGame.swift */,
+				A55AA35F2AF5614500D8BC69 /* Transaction.swift */,
+				A50927962B0AB9570014F19B /* IdlerMode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A53127732ADF6648001E206B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A56248942B22733500753512 /* Servers */,
+				A53127992AE0C034001E206B /* Manager.swift */,
+				A5F4B3802AE1CD6000B36CA1 /* Persistance.swift */,
+				A5F4B3822AE1D70100B36CA1 /* Manager+Skill.swift */,
+				A50758732AE2041000D35520 /* Manager+SkillLocation.swift */,
+				A530EA2F2AF31CF400655ECA /* Manager+Inventory.swift */,
+				A51A82042B14424F00A16151 /* Manager+Dungeon.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A53127742ADF664E001E206B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A58101A72B0EACF3005A4B92 /* Dungeon */,
+				A50927932B0AB5930014F19B /* Idler */,
+				A55AA35C2AF5610C00D8BC69 /* TransactionWindow */,
+				A507586A2AE1DEF200D35520 /* Components */,
+				A53127962AE0BD63001E206B /* Rows */,
+				A5F4B37A2AE173CD00B36CA1 /* SkillView.swift */,
+				A507586F2AE1E71A00D35520 /* SkillLocationView.swift */,
+				A50758752AE2A33E00D35520 /* InventoryView.swift */,
+				A5B433742AE3766000C54E59 /* ShopView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A531277B2ADF6B6B001E206B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5409F522B200D8800C9F736 /* ServerData */,
+				A531277C2ADF6B80001E206B /* Item+Resources.swift */,
+				A531277E2ADF6E4B001E206B /* Item+Runes.swift */,
+				A53127802ADF6E6D001E206B /* Item+Combat.swift */,
+				A53127832AE000C0001E206B /* SkillLocations+Resources.swift */,
+				A53127852AE00769001E206B /* Skill+Data.swift */,
+				A58FE9772B1AD9600033BDB9 /* Item+Consumables.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A53127822ADF6EA3001E206B /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				A53127772ADF6919001E206B /* Item.swift */,
+				A5B433722AE2C14A00C54E59 /* InventoryContent.swift */,
+				A530EA2D2AF2EF9400655ECA /* Equipment.swift */,
+				A50BEAC22B182FB000A45F52 /* Equipment+Dungeon.swift */,
+				A5EF59292B258EDF00110747 /* ItemType.swift */,
+				A5EF592B2B258EF800110747 /* ItemData.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		A53127872AE00A86001E206B /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+				A53127752ADF668B001E206B /* Skill.swift */,
+				A53127882AE00A9C001E206B /* SkillLocation.swift */,
+				A5F4B37E2AE1CC1900B36CA1 /* PlayerSkill.swift */,
+			);
+			path = Skills;
+			sourceTree = "<group>";
+		};
+		A531278E2AE0701E001E206B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A53127942AE07BE4001E206B /* View.swift */,
+				A55AA3612AF5742900D8BC69 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A53127912AE073F4001E206B /* SkillCheck */ = {
+			isa = PBXGroup;
+			children = (
+				A531278A2AE06AAD001E206B /* SkillCheck.swift */,
+				A531278C2AE06AD5001E206B /* SkillCheckCircle.swift */,
+				A53127922AE07407001E206B /* SkillCheckIndicator.swift */,
+			);
+			path = SkillCheck;
+			sourceTree = "<group>";
+		};
+		A53127962AE0BD63001E206B /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				A53127972AE0BD71001E206B /* PlayerSkillRow.swift */,
+				A50758712AE1E75000D35520 /* SkillLocationRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		A5409F522B200D8800C9F736 /* ServerData */ = {
+			isa = PBXGroup;
+			children = (
+				A5409F532B200F3100C9F736 /* ServerResponse.swift */,
+			);
+			path = ServerData;
+			sourceTree = "<group>";
+		};
+		A55AA35C2AF5610C00D8BC69 /* TransactionWindow */ = {
+			isa = PBXGroup;
+			children = (
+				A55AA35D2AF5612400D8BC69 /* TransactionWindow.swift */,
+				A55AA3632AF574B700D8BC69 /* TransactionQuantityPicker.swift */,
+			);
+			path = TransactionWindow;
+			sourceTree = "<group>";
+		};
+		A55AA3652AF5E19B00D8BC69 /* Merchants */ = {
+			isa = PBXGroup;
+			children = (
+				A55AA3662AF5E1B500D8BC69 /* Merchant.swift */,
+			);
+			path = Merchants;
+			sourceTree = "<group>";
+		};
+		A56248912B225B4000753512 /* Multiplayer */ = {
+			isa = PBXGroup;
+			children = (
+				A56248922B225B4A00753512 /* MultiplayerView.swift */,
+				A5EF59272B24EC5D00110747 /* MultiplayerSettings.swift */,
+			);
+			path = Multiplayer;
+			sourceTree = "<group>";
+		};
+		A56248942B22733500753512 /* Servers */ = {
+			isa = PBXGroup;
+			children = (
+				A5409F502B200CF800C9F736 /* HTTPServerInterface.swift */,
+				A5409F552B2015F300C9F736 /* Manager+Server.swift */,
+				A56248952B22736200753512 /* SocketServer.swift */,
+			);
+			path = Servers;
+			sourceTree = "<group>";
+		};
+		A57645862B23D331003C26A7 /* Multiplayer */ = {
+			isa = PBXGroup;
+			children = (
+				A57645872B23D33B003C26A7 /* PlayerAction.swift */,
+				A57645892B23D34D003C26A7 /* ActionType.swift */,
+			);
+			path = Multiplayer;
+			sourceTree = "<group>";
+		};
+		A58101A72B0EACF3005A4B92 /* Dungeon */ = {
+			isa = PBXGroup;
+			children = (
+				A56248912B225B4000753512 /* Multiplayer */,
+				A51A82002B1439EA00A16151 /* DungeonView.swift */,
+				A51A82062B14445600A16151 /* TileView.swift */,
+				A52FADFC2B156CC2001049FD /* NavigationMoveButton.swift */,
+				A509A45C2B1933140000912D /* MapView.swift */,
+				A509A45E2B1933A20000912D /* RoomTileView.swift */,
+				A509A4602B1953570000912D /* ConnectorView.swift */,
+				A509A4622B195DA40000912D /* ValueProgressBar.swift */,
+			);
+			path = Dungeon;
+			sourceTree = "<group>";
+		};
+		A58101A82B0EAD82005A4B92 /* Dungeon */ = {
+			isa = PBXGroup;
+			children = (
+				A57645862B23D331003C26A7 /* Multiplayer */,
+				A58101A92B0EAF89005A4B92 /* Room.swift */,
+				A58101AB2B0EAF9E005A4B92 /* Tile.swift */,
+				A58101AD2B0EB126005A4B92 /* Enemy.swift */,
+				A51A82022B143A2A00A16151 /* Dungeon.swift */,
+				A509A45A2B1927350000912D /* Direction.swift */,
+			);
+			path = Dungeon;
+			sourceTree = "<group>";
+		};
+		A5F66CE82B2051C600DB4400 /* ModGame */ = {
+			isa = PBXGroup;
+			children = (
+				A5F66CE92B2051CE00DB4400 /* ModGameView.swift */,
+				A5F66CEB2B2051E500DB4400 /* ModGameRow.swift */,
+			);
+			path = ModGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53127442ADF635B001E206B /* Everwyn Idle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53127692ADF635E001E206B /* Build configuration list for PBXNativeTarget "Everwyn Idle" */;
+			buildPhases = (
+				A53127412ADF635B001E206B /* Sources */,
+				A53127422ADF635B001E206B /* Frameworks */,
+				A53127432ADF635B001E206B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Everwyn Idle";
+			packageProductDependencies = (
+				A562488F2B2224C900753512 /* SocketIO */,
+			);
+			productName = "Everwyn Idle";
+			productReference = A53127452ADF635B001E206B /* Everwyn Idle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53127542ADF635E001E206B /* Everwyn IdleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A531276C2ADF635E001E206B /* Build configuration list for PBXNativeTarget "Everwyn IdleTests" */;
+			buildPhases = (
+				A53127512ADF635E001E206B /* Sources */,
+				A53127522ADF635E001E206B /* Frameworks */,
+				A53127532ADF635E001E206B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53127572ADF635E001E206B /* PBXTargetDependency */,
+			);
+			name = "Everwyn IdleTests";
+			productName = "Everwyn IdleTests";
+			productReference = A53127552ADF635E001E206B /* Everwyn IdleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A531275E2ADF635E001E206B /* Everwyn IdleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A531276F2ADF635E001E206B /* Build configuration list for PBXNativeTarget "Everwyn IdleUITests" */;
+			buildPhases = (
+				A531275B2ADF635E001E206B /* Sources */,
+				A531275C2ADF635E001E206B /* Frameworks */,
+				A531275D2ADF635E001E206B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53127612ADF635E001E206B /* PBXTargetDependency */,
+			);
+			name = "Everwyn IdleUITests";
+			productName = "Everwyn IdleUITests";
+			productReference = A531275F2ADF635E001E206B /* Everwyn IdleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A531273D2ADF635B001E206B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A53127442ADF635B001E206B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A53127542ADF635E001E206B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A53127442ADF635B001E206B;
+					};
+					A531275E2ADF635E001E206B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A53127442ADF635B001E206B;
+					};
+				};
+			};
+			buildConfigurationList = A53127402ADF635B001E206B /* Build configuration list for PBXProject "Everwyn Idle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A531273C2ADF635B001E206B;
+			packageReferences = (
+				A562488E2B2224C900753512 /* XCRemoteSwiftPackageReference "socket" */,
+			);
+			productRefGroup = A53127462ADF635B001E206B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53127442ADF635B001E206B /* Everwyn Idle */,
+				A53127542ADF635E001E206B /* Everwyn IdleTests */,
+				A531275E2ADF635E001E206B /* Everwyn IdleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53127432ADF635B001E206B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53127502ADF635D001E206B /* Preview Assets.xcassets in Resources */,
+				A531274D2ADF635D001E206B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53127532ADF635E001E206B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A531275D2ADF635E001E206B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53127412ADF635B001E206B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57645882B23D33B003C26A7 /* PlayerAction.swift in Sources */,
+				A509A4632B195DA40000912D /* ValueProgressBar.swift in Sources */,
+				A530EA322AF320D800655ECA /* EquipmentPicker.swift in Sources */,
+				A50BEAC32B182FB000A45F52 /* Equipment+Dungeon.swift in Sources */,
+				A53127952AE07BE4001E206B /* View.swift in Sources */,
+				A53127982AE0BD71001E206B /* PlayerSkillRow.swift in Sources */,
+				A531277D2ADF6B80001E206B /* Item+Resources.swift in Sources */,
+				A58101AA2B0EAF89005A4B92 /* Room.swift in Sources */,
+				A50758762AE2A33E00D35520 /* InventoryView.swift in Sources */,
+				A51A82052B14424F00A16151 /* Manager+Dungeon.swift in Sources */,
+				A53127782ADF6919001E206B /* Item.swift in Sources */,
+				A50758742AE2041000D35520 /* Manager+SkillLocation.swift in Sources */,
+				A530EA302AF31CF400655ECA /* Manager+Inventory.swift in Sources */,
+				A5F4B37F2AE1CC1900B36CA1 /* PlayerSkill.swift in Sources */,
+				A531277F2ADF6E4B001E206B /* Item+Runes.swift in Sources */,
+				A5409F512B200CF800C9F736 /* HTTPServerInterface.swift in Sources */,
+				A53127862AE00769001E206B /* Skill+Data.swift in Sources */,
+				A5F4B37B2AE173CD00B36CA1 /* SkillView.swift in Sources */,
+				A51A82012B1439EA00A16151 /* DungeonView.swift in Sources */,
+				A5EF59282B24EC5D00110747 /* MultiplayerSettings.swift in Sources */,
+				A53127762ADF668B001E206B /* Skill.swift in Sources */,
+				A5B433732AE2C14A00C54E59 /* InventoryContent.swift in Sources */,
+				A531279A2AE0C035001E206B /* Manager.swift in Sources */,
+				A509A4612B1953570000912D /* ConnectorView.swift in Sources */,
+				A52FADFD2B156CC2001049FD /* NavigationMoveButton.swift in Sources */,
+				A53127812ADF6E6D001E206B /* Item+Combat.swift in Sources */,
+				A53127842AE000C0001E206B /* SkillLocations+Resources.swift in Sources */,
+				A531277A2ADF69F4001E206B /* Inventory.swift in Sources */,
+				A50927952B0AB8800014F19B /* LocationIdlerMain.swift in Sources */,
+				A530EA342AF3471F00655ECA /* SkillCheckGame.swift in Sources */,
+				A55AA3642AF574B700D8BC69 /* TransactionQuantityPicker.swift in Sources */,
+				A531274B2ADF635B001E206B /* ContentView.swift in Sources */,
+				A509A45F2B1933A20000912D /* RoomTileView.swift in Sources */,
+				A5F4B3812AE1CD6000B36CA1 /* Persistance.swift in Sources */,
+				A56248962B22736200753512 /* SocketServer.swift in Sources */,
+				A5B433752AE3766000C54E59 /* ShopView.swift in Sources */,
+				A50927972B0AB9570014F19B /* IdlerMode.swift in Sources */,
+				A55AA35E2AF5612400D8BC69 /* TransactionWindow.swift in Sources */,
+				A507586C2AE1DF1700D35520 /* PlayerSkillProgressView.swift in Sources */,
+				A5EF592C2B258EF800110747 /* ItemData.swift in Sources */,
+				A53127932AE07407001E206B /* SkillCheckIndicator.swift in Sources */,
+				A56248932B225B4A00753512 /* MultiplayerView.swift in Sources */,
+				A55AA3602AF5614500D8BC69 /* Transaction.swift in Sources */,
+				A5409F542B200F3100C9F736 /* ServerResponse.swift in Sources */,
+				A58101AC2B0EAF9E005A4B92 /* Tile.swift in Sources */,
+				A5F66CEC2B2051E500DB4400 /* ModGameRow.swift in Sources */,
+				A55AA3622AF5742900D8BC69 /* String.swift in Sources */,
+				A576458A2B23D34D003C26A7 /* ActionType.swift in Sources */,
+				A509A45D2B1933140000912D /* MapView.swift in Sources */,
+				A53127492ADF635B001E206B /* Everwyn_IdleApp.swift in Sources */,
+				A5F66CEE2B21351F00DB4400 /* DropTableView.swift in Sources */,
+				A5EF592A2B258EDF00110747 /* ItemType.swift in Sources */,
+				A530EA2E2AF2EF9400655ECA /* Equipment.swift in Sources */,
+				A53127892AE00A9C001E206B /* SkillLocation.swift in Sources */,
+				A50758722AE1E75000D35520 /* SkillLocationRow.swift in Sources */,
+				A5F66CEA2B2051CE00DB4400 /* ModGameView.swift in Sources */,
+				A58FE9782B1AD9600033BDB9 /* Item+Consumables.swift in Sources */,
+				A5409F562B2015F300C9F736 /* Manager+Server.swift in Sources */,
+				A51A82032B143A2A00A16151 /* Dungeon.swift in Sources */,
+				A531278B2AE06AAD001E206B /* SkillCheck.swift in Sources */,
+				A50758702AE1E71A00D35520 /* SkillLocationView.swift in Sources */,
+				A55AA3672AF5E1B500D8BC69 /* Merchant.swift in Sources */,
+				A51A82072B14445600A16151 /* TileView.swift in Sources */,
+				A531278D2AE06AD5001E206B /* SkillCheckCircle.swift in Sources */,
+				A58101AE2B0EB126005A4B92 /* Enemy.swift in Sources */,
+				A5F4B3832AE1D70100B36CA1 /* Manager+Skill.swift in Sources */,
+				A55B109C2B0037FB00C9716A /* QuickNotification.swift in Sources */,
+				A5B433712AE2A89F00C54E59 /* ListFootnote.swift in Sources */,
+				A509A45B2B1927350000912D /* Direction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53127512ADF635E001E206B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A531275A2ADF635E001E206B /* Everwyn_IdleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A531275B2ADF635E001E206B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53127642ADF635E001E206B /* Everwyn_IdleUITests.swift in Sources */,
+				A53127662ADF635E001E206B /* Everwyn_IdleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53127572ADF635E001E206B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53127442ADF635B001E206B /* Everwyn Idle */;
+			targetProxy = A53127562ADF635E001E206B /* PBXContainerItemProxy */;
+		};
+		A53127612ADF635E001E206B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53127442ADF635B001E206B /* Everwyn Idle */;
+			targetProxy = A53127602ADF635E001E206B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A53127672ADF635E001E206B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A53127682ADF635E001E206B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A531276A2ADF635E001E206B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Everwyn Idle/Preview Content\"";
+				DEVELOPMENT_TEAM = PB48Q4347J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Everwyn-Idle-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdh5031.Everwyn-Idle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A531276B2ADF635E001E206B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Everwyn Idle/Preview Content\"";
+				DEVELOPMENT_TEAM = PB48Q4347J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Everwyn-Idle-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdh5031.Everwyn-Idle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A531276D2ADF635E001E206B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PB48Q4347J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdh5031.Everwyn-IdleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everwyn Idle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Everwyn Idle";
+			};
+			name = Debug;
+		};
+		A531276E2ADF635E001E206B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PB48Q4347J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdh5031.Everwyn-IdleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everwyn Idle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Everwyn Idle";
+			};
+			name = Release;
+		};
+		A53127702ADF635E001E206B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PB48Q4347J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdh5031.Everwyn-IdleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Everwyn Idle";
+			};
+			name = Debug;
+		};
+		A53127712ADF635E001E206B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PB48Q4347J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdh5031.Everwyn-IdleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Everwyn Idle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53127402ADF635B001E206B /* Build configuration list for PBXProject "Everwyn Idle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53127672ADF635E001E206B /* Debug */,
+				A53127682ADF635E001E206B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53127692ADF635E001E206B /* Build configuration list for PBXNativeTarget "Everwyn Idle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A531276A2ADF635E001E206B /* Debug */,
+				A531276B2ADF635E001E206B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A531276C2ADF635E001E206B /* Build configuration list for PBXNativeTarget "Everwyn IdleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A531276D2ADF635E001E206B /* Debug */,
+				A531276E2ADF635E001E206B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A531276F2ADF635E001E206B /* Build configuration list for PBXNativeTarget "Everwyn IdleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53127702ADF635E001E206B /* Debug */,
+				A53127712ADF635E001E206B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A562488E2B2224C900753512 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A562488F2B2224C900753512 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A562488E2B2224C900753512 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A531273D2ADF635B001E206B /* Project object */;
+}
