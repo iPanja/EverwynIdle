@@ -71,7 +71,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<div align="center">
+<div>
   <a href="https://github.com/iPanja/EverwynIdle">
     <img src="product_screenshots.gif" alt="Product Screenshot GIF">
   </a>
