@@ -61,9 +61,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -73,7 +71,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<div align="center">
+  <a href="https://github.com/iPanja/EverwynIdle">
+    <img src="product_screenshots.gif" alt="Product Screenshot GIF">
+  </a>
+</div>
 
 This is a mobile game that combines traditional idler game mechanics with a dungeon exploration feature. You can idle to level up your skills and gather materials or instead play mini-games to gain these rewards faster. Sell the resources you have gathered to purchase better gear for your dungeon dives!
 
@@ -154,9 +156,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+You can directly side load this app onto your iPhone via Xcode. This application requires an iPhone running at least iOS 15.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,7 +211,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-url]: https://github.com/iPanja/EverwynIdle/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: product_screenshots.gif
 [Socket.io]: https://img.shields.io/badge/socket.io-000000?style=for-the-badge&logoColor=white&logo=socketdotio
 [Swift]: https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logoColor=white&logo=swift
 [Swift-url]: https://github.com/apple/swift
